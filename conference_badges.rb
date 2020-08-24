@@ -22,9 +22,8 @@ end
 
 
 def printer(attendees)
-  array = []
   attendees.each do |badge|
-    array << "Hello, my name is #{badge}."
+   puts "Hello, my name is #{badge}."
   end
-  puts array
+  
 end
